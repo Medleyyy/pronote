@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="Mon Lycée">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Icone pour l'écran d'accueil -->
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <title>Mon Lycée.net</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        header img {
+            max-width: 100px;
+        }
+
+        header h1 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #e2001a;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content img {
+            max-width: 200px;
+            margin: 20px auto;
+        }
+
+        .content h2 {
+            font-size: 20px;
+            color: #2e2e2e;
+            margin-top: 10px;
+        }
+
+        .content p {
+            font-size: 14px;
+            color: #6c757d;
+            margin: 5px 0 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #e2001a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c00017;
+        }
+
+        .maintenance-message {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: red;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_r%C3%A9gion_ile-de-france_2019.svg" alt="Région Île-de-France">
+        <h1>MON Lycée.NET</h1>
+    </header>
+    <div class="content">
+        <!-- Remplace le lien ci-dessous par le chemin de ton image -->
+        <img src="https://via.placeholder.com/200x200" alt="Illustration d'une étudiante">
+        <h2>Bienvenue dans votre Espace Numérique de Travail</h2>
+        <p>Connectez-vous pour accéder à votre compte.</p>
+        <form>
+            <input type="text" placeholder="Identifiant" required>
+            <input type="password" placeholder="Mot de passe" required>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+    <div class="maintenance-message">
+        ⚠️ Le site est actuellement en cours de maintenance. Son rétablissement est prévu pour le début du mois de décembre.  
+        Nous vous remercions de votre patience et de votre compréhension.
+    </div>
+    <footer>
+        <p>Mot de passe oublié ?</p>
+    </footer>
+</body>
+</html>
